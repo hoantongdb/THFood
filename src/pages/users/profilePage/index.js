@@ -1,7 +1,9 @@
 import { memo } from "react";
 
 const ProfilePage = () => {
-    return <h1>thong tin </h1>;
+    return (
+        <h1 class="heading"><span>sản phẩm </span>của chúng tôi</h1>
+    );
 
 
 };
