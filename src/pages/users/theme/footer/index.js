@@ -11,19 +11,20 @@ const Footer = () => {
         <footer>
             <div className="container">
                 <div className="footer-top">
-                    <div className="logo">THFood</div>
+                    <div className="logo">FooDB</div>
                     <div className="social-icons">
-                        <a href="#"><AiFillTwitterCircle /></a>
-                        <a href="#"><AiFillFacebook /></a>
-                        <a href="#"><AiFillLinkedin /></a>
+                        <a href="/"><AiFillTwitterCircle /></a>
+                        <a href="/"><AiFillFacebook /></a>
+                        <a href="/"><AiFillLinkedin /></a>
                     </div>
                 </div>
                 <div className="footer-bottom">
                     <div className="footer-links">
-                        <a href="#">Trang chủ</a>
-                        <a href="#">Sản phẩm</a>
-                        <a href="#">Liên hệ</a>
-                        <a href="#">Trợ giúp</a>
+                        <a href="/">Trang chủ</a>
+                        <a href="/">Cửa hàng</a>
+                        <a href="/">Sản phẩm</a>
+                        <a href="/">Bài viết</a>
+                        <a href="/">Liên hệ</a>
                     </div>
                     <div className="copyright">
                         © 2023 TongVanHoan. Contact us at hoan@gmail.com

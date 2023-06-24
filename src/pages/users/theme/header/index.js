@@ -5,59 +5,91 @@ import { Link } from "react-router-dom";
 import { fomatter } from "utils/fomatter";
 const Header = () => {
     return (
-        <div className="header__top">
-            <div className="container">
-                <div className="row">
-                    <div className="col-6 header__top_left">
-                        <ul>
-                            <li>
-                                <AiOutlineMail />
-                                hoan@gmail.com
+        <div>
+            <div className="header__top">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-6 header__top_left">
+                            <ul>
+                                <li>
+                                    <AiOutlineMail />
+                                    hoan@gmail.com
 
-                            </li>
-                            <li>
-                                miễn phí đơn {fomatter(100000)}
-                            </li>
+                                </li>
+                                <li>
+                                    miễn phí đơn {fomatter(100000)}
+                                </li>
 
-                        </ul>
+                            </ul>
+                        </div>
+                        <div className="col-6 header__top_right">
+                            <ul>
+                                <li>
+                                    <Link to={""}>
+                                        <AiOutlineFacebook />
+                                    </Link>
+
+                                </li>
+                                <li>
+                                    <Link to={""}>
+                                        <AiOutlineInstagram />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to={""}>
+                                        <AiFillTwitterSquare />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to={""}>
+                                        <AiOutlineGlobal />
+                                    </Link>
+                                </li>
+                                <li>
+
+                                    <Link to={""}>
+                                        <AiOutlineLogin />
+                                        <span>Đăng nhập</span>
+                                    </Link>
+                                </li>
+
+                            </ul>
+                        </div>
                     </div>
-                    <div className="col-6 header__top_right">
+                </div>
+            </div>
+
+            <div className="nva">
+                <div className="row">
+                    <div className="col-6 nva_left">
+                        <div className="logo">
+                            <h1>FooDB</h1>
+                        </div>
+
+                    </div>
+                    <div className="col-6 nva_right" >
                         <ul>
                             <li>
-                                <Link to={""}>
-                                    <AiOutlineFacebook />
-                                </Link>
-
+                                Trang chủ
                             </li>
                             <li>
-                                <Link to={""}>
-                                    <AiOutlineInstagram />
-                                </Link>
+                                Cửa hàng
                             </li>
                             <li>
-                                <Link to={""}>
-                                    <AiFillTwitterSquare />
-                                </Link>
+                                Sản phẩm
                             </li>
                             <li>
-                                <Link to={""}>
-                                    <AiOutlineGlobal />
-                                </Link>
+                                Bài viết
                             </li>
                             <li>
-
-                                <Link to={""}>
-                                    <AiOutlineLogin />
-                                    <span>Đăng nhập</span>
-                                </Link>
+                                Liên hệ
                             </li>
-
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
 
+        </div>
 
     );
 
