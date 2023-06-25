@@ -3,6 +3,8 @@ import "./style.scss"
 import { AiOutlineFacebook, AiOutlineMail, AiOutlineInstagram, AiFillTwitterSquare, AiOutlineLogin, AiOutlineGlobal } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { fomatter } from "utils/fomatter";
+
+
 const Header = () => {
     return (
         <div>
